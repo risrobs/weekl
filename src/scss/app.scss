@@ -40,9 +40,14 @@ html {
     right: 0;
     top: 0;
   }
-  .topnav.responsive a {
+  .navbar-burger {
     float: none;
-    display: block;
+    display: inline;
     text-align: left;
   }
 }
+.navbar-menu 
+@media only screen and (min-width: 1024px) {
+  header nav {
+    display: inline;
+  }
