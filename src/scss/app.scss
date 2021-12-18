@@ -19,11 +19,12 @@ html {
   background: $background;
 }
 
-.main {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10rem;
-  flex-flow: column;
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
 }
